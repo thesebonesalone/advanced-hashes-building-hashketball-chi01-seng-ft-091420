@@ -60,6 +60,15 @@ def game_hash
   
   #away team
   final_hash[:away] = {:team_name => "Charlotte Hornets", :colors => ["Turquoise", "Purple"], :players => []}
-  
+  #away players
+  final_hash[:away][:players].push(:player_name => "Jeff Adrian",
+  :number => 4,
+  :shoe => 18,
+  :points => 10,
+  :rebounds => 1,
+  :assists => 1,
+  :steals => 2,
+  :blocks => 7,
+  :slam_dunks => 2)
   final_hash
 end
